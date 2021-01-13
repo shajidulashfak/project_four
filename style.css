@@ -1,0 +1,62 @@
+.logo-img{
+    width: 60%;
+    height: 30%;
+}
+.customize-h2{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #363958;
+    margin: 20px 0 30px 0;
+}
+.home-header{
+    color: #FA804C;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+.home-header-ii{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color:#363958;
+}
+.customize-btn img{
+    width: 25px;
+    height:25px;
+}
+.customize-btn{
+    background-color: #3949DA;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 15px 10px 20px;
+}
+.price{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: #FA804C;
+    font-weight: bold;
+    font-size: 30px;
+}
+.customize-card{
+    border: none;
+}
+.customize-product{
+    background-color: #F1F1F1;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.customize-footer{
+    border-top: none;
+    background-color: white;
+}
+.box-style{
+    height: 450px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 15px;
+}
+.box-style-ii{
+    height: 550px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 15px;
+}
