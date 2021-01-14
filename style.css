@@ -9,6 +9,14 @@
     color: #363958;
     margin: 20px 0 30px 0;
 }
+.customize-nav{
+    background-color: #FFF9F4;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#home{
+    background-color: #FFF9F4;
+}
 .home-header{
     color: #FA804C;
     font-family: 'Anton', sans-serif;
@@ -59,4 +67,16 @@
     height: 550px;
     box-shadow: 5px 5px 10px gray;
     border-radius: 15px;
+}
+.box-style-iii{
+    box-shadow: 1px 1px 20px gray;
+    border-radius: 15px;
+}
+.customize-service{
+    margin-top: 100px;
+}
+.fellow-icon img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
 }

@@ -10,8 +10,8 @@
     <title>Shajidul Ashfak || E-Commerce Landing Page Project</title>
 </head>
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="container fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light customize-nav">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img class="logo-img" src="Logo-Icon/Logo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,20 +19,20 @@
               </button>
               <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link fw-bold text-dark me-3" href="#">Home</a>
-                  <a class="nav-link fw-bold text-dark me-3" href="#">Product</a>
-                  <a class="nav-link fw-bold text-dark me-3" href="#">About Us</a>
-                  <a class="nav-link fw-bold text-dark me-3" href="#">Contact Us</a>
+                  <a class="nav-link fw-bold text-dark me-3" href="#home">Home</a>
+                  <a class="nav-link fw-bold text-dark me-3" href="#Product">Product</a>
+                  <a class="nav-link fw-bold text-dark me-3" href="#service">Service</a>
+                  <a class="nav-link fw-bold text-dark me-3" href="#contact">Contact Us</a>
                 </div>
               </div>
             </div>
           </nav>
     </header>
-    <section>
+    <section id="home">
         <div class="container">
             <div class="row">
-              <div class="col-md-6 p-5">
-                <img width="100%" height="100%" src="photos/Group 33092.png" alt="">
+              <div class="col-md-6 p-5 mt-5">
+                <img width="100%" height="100%" class="d-flex justify-content-start" src="photos/Group 33092.png" alt="">
               </div>
               <div class="col-md-6 d-flex align-items-center justify-content-end p-5 ml-5">
                 <div class="home-section">
@@ -45,13 +45,15 @@
             </div>
         </div>
     </section>
-    <section class="container">
+    <section class="container" id="Product">
         <h2 class="customize-h2">CASUAL SHOES</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card h-100 customize-card">
                 <div class="box-style">
-                    <img width="200px" height="250px" src="Photos/image 5.png" class="card-img-top customize-product" alt="...">
+                  <div class="m-3">
+                    <img width="200px" height="220px" src="Photos/image 5.png" class="card-img-top customize-product" alt="...">
+                  </div>
                     <div class="card-body">
                     <h3 class="card-title">Nike Shoe</h3>
                     <p class="card-text">Lorem Ipsum is simply dummy text of the
@@ -67,7 +69,9 @@
             <div class="col">
               <div class="card h-100 customize-card">
                 <div class="box-style">
-                    <img width="200px" height="250px" src="Photos/Daco_1703273 1.png" class="card-img-top customize-product" alt="...">
+                  <div class="m-3">
+                    <img width="200px" height="220px" src="Photos/Daco_1703273 1.png" class="card-img-top customize-product" alt="...">
+                  </div>
                     <div class="card-body">
                         <h3 class="card-title">Sneakers Skate Shoe</h3>
                         <p class="card-text">Lorem Ipsum is simply dummy text of the
@@ -83,7 +87,9 @@
             <div class="col">
                 <div class="card h-100 customize-card">
                     <div class="box-style">
-                        <img width="200px" height="250px" src="Photos/pngegg 1.png" class="card-img-top customize-product" alt="...">
+                        <div class="m-3">
+                          <img width="200px" height="220px" src="Photos/pngegg 1.png" class="card-img-top customize-product" alt="...">
+                        </div>
                         <div class="card-body">
                             <h3 class="card-title">Sneakers Basketball shoe</h3>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the
@@ -97,69 +103,141 @@
                 </div>
             </div>
           </div>
-    </section>
-    <section class="container">
-        <h2 class="customize-h2">Formal shoes</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100 customize-card">
-                <div class="box-style-ii">
-                    <img height=58%" src="Photos/Mask Group.png" class="card-img-top customize-product" alt="...">
-                    <div class="card-body">
-                        <h3 class="card-title">Prestige High-Cut Leather</h3>
-                        <p class="card-text">Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry.</p>
-                        <div class="card-footer customize-footer d-flex justify-content-between">
-                            <h2 class="price">$234</h2>
-                            <button class="btn text-white customize-btn"><img src="logo-icon/shopping-cart 1.png" alt=""> Buy Now</button>
-                        </div>
-                    </div>
+          <div class="container">
+            <h2 class="customize-h2">Formal shoes</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100 customize-card">
+                  <div class="box-style-ii">
+                      <img height="350px" width="400px" src="Photos/Mask Group.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h3 class="card-title fs-4">Prestige High-Cut Leather</h3>
+                          <p class="card-text">Lorem Ipsum is simply dummy text of the
+                          printing and typesetting industry.</p>
+                          <div class="card-footer customize-footer d-flex justify-content-between">
+                              <h2 class="price">$234</h2>
+                              <button class="btn text-white customize-btn"><img src="logo-icon/shopping-cart 1.png" alt=""> Buy Now</button>
+                          </div>
+                      </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card h-100 customize-card">
-                <div class="box-style-ii">
-                    <img src="Photos/Rectangle 38.png" class="card-img-top customize-product" alt="...">
-                    <div class="card-body">
-                        <h3 class="card-title">Slip-On Formal Shoe</h3>
-                        <p class="card-text">Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry.</p>
-                        <div class="card-footer customize-footer d-flex justify-content-between">
-                            <h2 class="price">$234</h2>
-                            <button class="btn text-white customize-btn"><img src="logo-icon/shopping-cart 1.png" alt=""> Buy Now</button>
-                        </div>
-                    </div>
+              <div class="col">
+                <div class="card h-100 customize-card">
+                  <div class="box-style-ii">
+                      <img height="350px" width="400px" src="Photos/Rectangle 38.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h3 class="card-title fs-4">Slip-On Formal Shoe</h3>
+                          <p class="card-text">Lorem Ipsum is simply dummy text of the
+                          printing and typesetting industry.</p>
+                          <div class="card-footer customize-footer d-flex justify-content-between">
+                              <h2 class="price">$234</h2>
+                              <button class="btn text-white customize-btn"><img src="logo-icon/shopping-cart 1.png" alt=""> Buy Now</button>
+                          </div>
+                      </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card h-100 customize-card">
-                <div class="box-style-ii">
-                    <img src="Photos/Rectangle 39.png" class="card-img-top customize-product" alt="...">
-                        <div class="card-body">
-                            <h3 class="card-title">Slip-On Formal Shoe</h3>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry.</p>
-                            <div class="card-footer customize-footer d-flex justify-content-between">
-                                <h2 class="price">$234</h2>
-                                <button class="btn text-white customize-btn"><img src="logo-icon/shopping-cart 1.png" alt=""> Buy Now</button>
-                            </div>
-                         </div>
+              <div class="col">
+                <div class="card h-100 customize-card">
+                  <div class="box-style-ii">
+                      <img height="350px" width="400px" src="Photos/Rectangle 39.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h3 class="card-title fs-4">Slip-On Formal Shoe</h3>
+                              <p class="card-text">Lorem Ipsum is simply dummy text of the
+                              printing and typesetting industry.</p>
+                              <div class="card-footer customize-footer d-flex justify-content-between">
+                                  <h2 class="price">$234</h2>
+                                  <button class="btn text-white customize-btn"><img src="logo-icon/shopping-cart 1.png" alt=""> Buy Now</button>
+                              </div>
+                           </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
     </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+      <section class="container mt-5" id="service">
+        <div class="row customize-service">
+          <div class="col-md-5">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row p-2 mb-4 box-style-iii">
+                  <div class="col-md-3">
+                    <img width="100px" height="100px" src="logo-icon/image 12.png" alt="">
+                  </div>
+                  <div class="col-md-9">
+                    <h2>Find the Perfect Fit</h2>
+                    <p>Everybody is different, which is why we <br> offer styles for every body.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="row p-2 mb-4 box-style-iii">
+                  <div class="col-md-3">
+                    <img width="100px" height="100px" src="logo-icon/image 13.png" alt="">
+                  </div>
+                  <div class="col-md-9">
+                    <h2>Free Exchanges</h2>
+                    <p>One of the many reasons you can shop <br> with peace of mind.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="row p-2 box-style-iii">
+                  <div class="col-md-3">
+                    <img width="100px" height="100px" src="logo-icon/image 14.png" alt="">
+                  </div>
+                  <div class="col-md-9">
+                    <h2>Contact Our Seller</h2>
+                    <p>They are here to help you. That's quite <br> literally what we pay them for.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 p-5">
+            <img src="logo-icon/XMLID 1.png" width="100%" height="100%" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="mt-5 bg-dark">
+        <footer class="container" id="contact">
+          <div class="row p-5">
+            <div class="col-md-4">
+              <h2 class="text-success mb-4">Contact Us :</h2>
+              <h3 class="text-white fs-5">(+88) 01234567891</h3>
+              <h5 class="text-white mb-5">Email : sales@gmail.com</h5>
+              <address>
+                <h4 class="text-success mb-4">Location :</h4>
+                <p class="text-white">
+                  Fatickchari , Chittagong , <br>Bangladesh.
+                </p>
+              </address>
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-success mb-4">Sign-Up :</h2>
+                <div class="container-floid">
+                  <input class="form-control form-control-lg mb-4" type="name" placeholder="Enter Your Name" aria-label=".form-control-lg example">
+                  <input class="form-control mb-4" type="email" placeholder="Enter Your Email" aria-label="default input example">
+                  <input class="form-control form-control-sm mb-4" type="password" placeholder="Enter Your Password" aria-label=".form-control-sm example">
+                  <button class="btn btn-outline-success mb-4 d-grid col-md-12">Submit</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <h2 class="text-success mb-3">Fellow Us :</h2>
+                <ul class="list-inline fellow-icon p-2">
+                  <li class="list-inline-item"><a href="facebook.com"><img src="logo-icon/facebook.png" alt=""></a></li>
+                  <li class="list-inline-item"><a href="twitter.com"><img src="logo-icon/twitter.png" alt=""></a></li>
+                  <li class="list-inline-item"><a href="linkedin.com"><img src="logo-icon/linkedin.png" alt=""></a></li>
+                  <li class="list-inline-item"><a href="youtube.com"><img src="logo-icon/YouTube.png" alt=""></a></li>
+                </ul>
+                <img class="rounded" src="logo-icon/master-card.png" alt="">
+            </div>
+          </div>
+          <p class="text-danger d-flex justify-content-center fw-bold fs-6">&copy; 2021 Designed and built by The Shajidul Ashfak.</p>
+        </footer>
+      </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>
